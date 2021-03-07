@@ -4,8 +4,14 @@ This is a sample config to add BLTouch to the WanHao i3 or similar. Most is copi
 
 This config allows LCD, SD, and BL Touch, all barely fitting into the space available.
 
-Specific changes I have made:
+There are two versions of the config - one that requires changes to compiler flags to shrink the firmware size, and one that does not. Both of them have the following:
 - Thermistor resistor fix - thermistor table change
 - Reversing scroll direction to match original
 - Tweaking thermal protection variables
 - FAN_SOFT_PWM so the damn thing doesn't make noise when running the part fan
+
+The compiler flag option adds the following features:
+- Linear Advance
+- Add M503 command back
+
+To use the compiler flags, you need to drop the platform.local.txt into %localappdata%\Arduino15\packages\Sanguino\hardware\avr\1.0.3
