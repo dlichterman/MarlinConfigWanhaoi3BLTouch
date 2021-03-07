@@ -641,8 +641,6 @@
   // Since the FAT gets out of order with usage, SDCARD_SORT_ALPHA is recommended.
   #define SDCARD_RATHERRECENTFIRST
 
-
-  #define SDCARD_READONLY
   // Add an option in the menu to run all auto#.g files
   //#define MENU_ADDAUTOSTART
 
