@@ -12,6 +12,7 @@ There are two versions of the config - one that requires changes to compiler fla
 
 The compiler flag option adds the following features:
 - Linear Advance
+- Babystepping
 - Add M503 command back
 
 To use the compiler flags, you need to drop the platform.local.txt into %localappdata%\Arduino15\packages\Sanguino\hardware\avr\1.0.3
